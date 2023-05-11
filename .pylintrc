@@ -1,0 +1,7 @@
+[pylint]
+disable = C,R,W
+
+[TYPECHECK]
+# Disable pylint's 'no-name-in-module' error for pydantic's BaseModel class
+ignored-modules=pydantic
+ignored-modules=pymongo
